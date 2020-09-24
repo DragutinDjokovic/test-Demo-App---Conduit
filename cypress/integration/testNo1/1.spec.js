@@ -1,5 +1,5 @@
 describe('Login', () => {
-    it('Sign in', () =>{
+    it('Sign in', () => {
         cy.visit('https://react-redux.realworld.io/#/login')
         cy.get('input[type="email"]').type('ddjwint@gmail.com')
         cy.get('input[type="password"]').type('Haveanaccount?')
